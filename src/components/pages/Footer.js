@@ -4,18 +4,18 @@ import React from "react";
 export default function Footer() {
     return (
       <div>
-        <footer class="bg-gray-900 text-gray-300">
-          <div id="footer-content" class="relative pt-16 pb-12">
-            <div class="container xl:max-w-6xl mx-auto px-4">
-              <div class="flex flex-wrap flex-row -mx-4">
-                <div class="max-w-full px-4 w-full">
-                  <div class="text-center">
-                    <ul class="space-x-3">
+        <footer className="bg-gray-900 text-gray-300">
+          <div id="footer-content" className="relative pt-16 pb-12">
+            <div className="container xl:max-w-6xl mx-auto px-4">
+              <div className="flex flex-wrap flex-row -mx-4">
+                <div className="max-w-full px-4 w-full">
+                  <div className="text-center">
+                    <ul className="space-x-3">
                       {/* facebook */}
-                      <li class="inline-block">
+                      <li className="inline-block">
                         <a
                           target="_blank"
-                          class="hover:text-gray-100"
+                          className="hover:text-gray-100"
                           rel="noopener noreferrer"
                           href="https://www.facebook.com/david.mcwhirter.9"
                           title="Facebook"
@@ -34,10 +34,10 @@ export default function Footer() {
                         </a>
                       </li>
                       {/* twitter */}
-                      <li class="inline-block">
+                      <li className="inline-block">
                         <a
                           target="_blank"
-                          class="hover:text-gray-100"
+                          className="hover:text-gray-100"
                           rel="noopener noreferrer"
                           href="https://twitter.com/Sithryll"
                           title="Twitter"
@@ -56,10 +56,10 @@ export default function Footer() {
                         </a>
                       </li>
                       {/* linkedin */}
-                      <li class="inline-block">
+                      <li className="inline-block">
                         <a
                           target="_blank"
-                          class="hover:text-gray-100"
+                          className="hover:text-gray-100"
                           rel="noopener noreferrer"
                           href="https://www.linkedin.com/in/david-mcwhirter-aa39bb258/"
                           title="Linkedin"
@@ -78,10 +78,10 @@ export default function Footer() {
                         </a>
                       </li>
                       {/* github */}
-                      <li class="inline-block">
+                      <li className="inline-block">
                         <a
                           target="_blank"
-                          class="hover:text-gray-100"
+                          className="hover:text-gray-100"
                           rel="noopener noreferrer"
                           href="https://github.com/Sithryl"
                           title="Github"

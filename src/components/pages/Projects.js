@@ -1,24 +1,213 @@
 import React from 'react';
+import Reciplease from "../../../src/assets/images/Reciplease-page.png";
+import JATE from "../../../src/assets/images/JATE.png";
+import README from "../../../src/assets/images/readme-generator.png";
+import Password from "../../../src/assets/images/webscreenshot.png";
+import PetCheck from "../../../src/assets/images/petcheck-page.png";
+export default function Projects() {
 
-export default function Blog() {
+
   return (
     <div>
-      <h1>Blog Page</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
+      <div id="project section" className="relative py-20 md:py-24 bg-gray-800">
+        <div className="container xl:max-w-6xl mx-auto px-4">
+          {/* section header */}
+          <header className="text-center mx-auto mb-12">
+            <h2 className="text-2xl md:text-3xl leading-normal mb-2 font-bold text-gray-800 dark:text-gray-100">
+              <span className="font-light">My</span> Projects
+            </h2>
+            <hr className="block w-12 h-0.5 mx-auto my-5 bg-red-800 border-blue-700"></hr>
+          </header>
+
+          <div className="grid grid-cols-3 gap-7">
+            {/* item */}
+            <div className="flex flex-col bg-white mb-12 rounded overflow-hidden shadow">
+              <div className="relative overflow-hidden">
+                <a href="https://xyiorgyx.github.io/Reciplease/">
+                  <div className="absolute inset-0 hover:bg-black opacity-0 transition duration-700 hover:opacity-20"></div>
+                  <img
+                    className="max-w-full h-auto"
+                    src={Reciplease}
+                    alt="reciplease"
+                  ></img>
+                </a>
+              </div>
+              <div className="py-6 px-8 flex-1">
+                <div className="mb-2">
+                  <h3 className="text-xl leading-normal mb-4 font-bold text-gray-800">
+                    <a
+                      href="https://xyiorgyx.github.io/Reciplease/"
+                      className="hover:text-blue-700 dark:hover:text-gray-100"
+                    >
+                      Reciplease
+                    </a>
+                  </h3>
+                  <div className="text-gray-600">
+                    <p className="text-gray-500">
+                      This was my first group project. Search up some of you
+                      favorite foods to make using api calls to Spoonacular
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* item */}
+            <div className="flex flex-col bg-white mb-12 rounded overflow-hidden shadow">
+              <div className="relative overflow-hidden">
+                <a href="https://sithryl-jate.herokuapp.com/">
+                  <div className="absolute inset-0 hover:bg-black opacity-0 transition duration-700 hover:opacity-20"></div>
+                  <img
+                    className="max-w-full h-auto"
+                    src={JATE}
+                    alt="JATE"
+                  ></img>
+                </a>
+              </div>
+              <div className="py-6 px-8 flex-1">
+                <div className="mb-2">
+                  <h3 className="text-xl leading-normal mb-4 font-bold text-gray-800">
+                    <a
+                      href="https://sithryl-jate.herokuapp.com/"
+                      className="hover:text-blue-700 dark:hover:text-gray-100"
+                    >
+                      JATE - Just Another Text Editor
+                    </a>
+                  </h3>
+                  <div className="text-gray-600">
+                    <p className="text-gray-500">
+                      Take notes that save to your local cache and download the
+                      app to view your notes even while not connected to the
+                      internet!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* item */}
+            <div className="flex flex-col bg-white mb-12 rounded overflow-hidden shadow">
+              <div className="relative overflow-hidden">
+                <a href="https://github.com/Sithryl/README-Generator">
+                  <div className="absolute inset-0 hover:bg-black opacity-0 transition duration-700 hover:opacity-20"></div>
+                  <img
+                    className="max-w-full h-auto"
+                    src={README}
+                    alt="terminal"
+                  ></img>
+                </a>
+              </div>
+              <div className="py-6 px-8 flex-1">
+                <div className="mb-2">
+                  <h3 className="text-xl leading-normal mb-4 font-bold text-gray-800">
+                    <a
+                      href="https://github.com/Sithryl/README-Generator"
+                      className="hover:text-blue-700 dark:hover:text-gray-100"
+                    >
+                      README Generator
+                    </a>
+                  </h3>
+                  <div className="text-gray-600">
+                    <p className="text-gray-500">
+                      An application to generate a quick README for any project
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* item */}
+            <div className="flex flex-col bg-white mb-12 rounded overflow-hidden shadow">
+              <div className="relative overflow-hidden">
+                <a href="https://sithryl.github.io/Password-Generator/">
+                  <div className="absolute inset-0 hover:bg-black opacity-0 transition duration-700 hover:opacity-20"></div>
+                  <img
+                    className="max-w-full h-auto"
+                    src={Password}
+                    alt="webImage"
+                  ></img>
+                </a>
+              </div>
+              <div className="py-6 px-8 flex-1">
+                <div className="mb-2">
+                  <h3 className="text-xl leading-normal mb-4 font-bold text-gray-800">
+                    <a
+                      href="https://sithryl.github.io/Password-Generator/"
+                      className="hover:text-blue-700 dark:hover:text-gray-100"
+                    >
+                      Password Generator
+                    </a>
+                  </h3>
+                  <div className="text-gray-600">
+                    <p className="text-gray-500">
+                      Here's an application to generate a password based on user
+                      criteria
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* item */}
+            <div className="flex flex-col bg-white mb-12 rounded overflow-hidden shadow">
+              <div className="relative overflow-hidden">
+                <a href="https://sithryl.github.io/Password-Generator/">
+                  <div className="absolute inset-0 hover:bg-black opacity-0 transition duration-700 hover:opacity-20"></div>
+                  <img
+                    className="max-w-full h-auto"
+                    src={PetCheck}
+                    alt="webImage"
+                  ></img>
+                </a>
+              </div>
+              <div className="py-6 px-8 flex-1">
+                <div className="mb-2">
+                  <h3 className="text-xl leading-normal mb-4 font-bold text-gray-800">
+                    <a
+                      href="https://sithryl.github.io/Password-Generator/"
+                      className="hover:text-blue-700 dark:hover:text-gray-100"
+                    >
+                      Pet Check Plus
+                    </a>
+                  </h3>
+                  <div className="text-gray-600">
+                    <p className="text-gray-500">
+                      This was my 2nd group project. This is a site where you
+                      can add and save information on your pets
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* item */}
+            <div className="flex flex-col bg-white mb-12 rounded overflow-hidden shadow">
+              <div className="relative overflow-hidden">
+                <a href="https://sithryl.github.io/Password-Generator/">
+                  <div className="absolute inset-0 hover:bg-black opacity-0 transition duration-700 hover:opacity-20"></div>
+                  {/* <img
+                    className="max-w-full h-auto"
+                    src='#'
+                    alt="webImage"
+                  ></img> */}
+                </a>
+              </div>
+              <div className="py-6 px-8 flex-1">
+                <div className="mb-2">
+                  <h3 className="text-xl leading-normal mb-4 font-bold text-gray-800">
+                    <a
+                      href="#"
+                      className="hover:text-blue-700 dark:hover:text-gray-100"
+                    >
+                      New Projects coming soon!
+                    </a>
+                  </h3>
+                  <div className="text-gray-600">
+                    <p className="text-gray-500">
+                      Coming Soon!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
