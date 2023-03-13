@@ -9,9 +9,7 @@ export default function Contact() {
 
           <div className="flex flex-wrap flex-row -mx-4">
             <div
-              className="flex-shrink max-w-full w-full px-4 lg:w-5/12 lg:pr-12 wow fadeInLeft"
-              data-wow-duration="1s"
-              data-wow-delay=".1s"
+              className="flex-shrink max-w-full w-full px-4 lg:w-5/12 lg:pr-12"
             >
               <div className="p-12 shadow rounded bg-white">
                 <div className="flex">

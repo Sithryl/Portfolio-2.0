@@ -7,9 +7,7 @@ export default function Home() {
         <div className="container xl:max-w-6xl mx-auto px-4">
           <div className="flex flex-wrap flex-row -mx-4 mb-12 md:mb-16">
             <div
-              className="flex-shrink w-full max-w-full md:w-1/2 md:order-2 px-12 lg:px-16 text-center wow fadeInLeft"
-              data-wow-duration="1s"
-              data-wow-delay=".1s"
+              className="flex-shrink w-full max-w-full md:w-1/2 md:order-2 px-12 lg:px-16 text-center"
             >
               <img
                 src={me}
@@ -18,9 +16,7 @@ export default function Home() {
               ></img>
             </div>
             <div
-              className="flex-shrink w-full max-w-full md:w-1/2 md:order-1 px-4 self-center wow fadeInRight"
-              data-wow-duration="1s"
-              data-wow-delay=".1s"
+              className="flex-shrink w-full max-w-full md:w-1/2 md:order-1 px-4 self-center"
             >
               <div className="mt-0 pt-6 text-center">
                 <h1 className="text-2xl md:text-3xl leading-normal mb-2 font-semibold text-white">
