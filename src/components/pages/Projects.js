@@ -4,6 +4,7 @@ import JATE from "../../../src/assets/images/JATE.png";
 import README from "../../../src/assets/images/readme-generator.png";
 import Password from "../../../src/assets/images/webscreenshot.png";
 import PetCheck from "../../../src/assets/images/petcheck-page.png";
+import Regex from "../../../src/assets/images/regex.png";
 export default function Projects() {
 
 
@@ -180,27 +181,25 @@ export default function Projects() {
               <div className="relative overflow-hidden">
                 <a href="https://sithryl.github.io/Password-Generator/">
                   <div className="absolute inset-0 hover:bg-black opacity-0 transition duration-700 hover:opacity-20"></div>
-                  {/* <img
+                  <img
                     className="max-w-full h-auto"
-                    src='#'
+                    src={Regex}
                     alt="webImage"
-                  ></img> */}
+                  ></img>
                 </a>
               </div>
               <div className="py-6 px-8 flex-1">
                 <div className="mb-2">
                   <h3 className="text-xl leading-normal mb-4 font-bold text-gray-800">
                     <a
-                      href="#"
+                      href="https://gist.github.com/Sithryl/7cdbe5114b844ddbac1ac721f8829298"
                       className="hover:text-blue-700 dark:hover:text-gray-100"
                     >
-                      New Projects coming soon!
+                      Regex Tutorial
                     </a>
                   </h3>
                   <div className="text-gray-600">
-                    <p className="text-gray-500">
-                      Coming Soon!
-                    </p>
+                    <p className="text-gray-500">Learn how to read REGEX syntax</p>
                   </div>
                 </div>
               </div>
