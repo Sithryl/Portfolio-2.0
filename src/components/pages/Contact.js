@@ -8,9 +8,7 @@ export default function Contact() {
           {/* row start */}
 
           <div className="flex flex-wrap flex-row -mx-4">
-            <div
-              className="flex-shrink max-w-full w-full px-4 lg:w-5/12 lg:pr-12"
-            >
+            <div className="flex-shrink max-w-full w-full px-4 lg:w-5/12 lg:pr-12">
               <div className="p-12 shadow rounded bg-white">
                 <div className="flex">
                   {/* email */}
@@ -68,18 +66,14 @@ export default function Contact() {
                       >
                         <button
                           type="button"
-                          className="py-3 px-5 inline-block text-center mb-3 rounded-md leading-normal text-violet-900 bg-violet-900 border border-violet-900 hover:text-white hover:bg-violet-900 hover:ring-0 hover:border-blue-800 focus:bg-blue-800 focus:border-blue-800 focus:outline-none focus:ring-0"
+                          className="py-3 px-5 inline-block text-center mb-3 rounded-md leading-normal text-gray-100 bg-violet-700 border border-violet-700 hover:text-white hover:bg-violet-800 hover:ring-0 hover:border-violet-800 focus:bg-violet-800 focus:border-violet-800 focus:outline-none focus:ring-0"
                         >
                           Download Resume
                         </button>
                       </a>
                     </div>
                   </div>
-                  <div
-                    className="flex-shrink max-w-full w-full px-4 lg:w-7/12 lg:pl-0 mt-12 lg:mt-0 wow fadeInRight"
-                    data-wow-duration="1s"
-                    data-wow-delay=".3s"
-                  >
+                  <div className="flex-shrink max-w-full w-full px-4 mt-12">
                     <div className="w-100 p-12 shadow rounded bg-white">
                       {/* contact form */}
                       <form action="mailto: david@tgsummit.com">
@@ -135,7 +129,7 @@ export default function Contact() {
                         </div>
                         <div className="text-center mb-6">
                           <button
-                            className="py-3 px-5 -ml-1 rounded-md leading-5 text-red-800 bg-red-800 border border-red-700 hover:text-white hover:bg-red-800 hover:ring-0 hover:border-red-800 focus:bg-red-800 focus:border-red-800 focus:outline-none focus:ring-0"
+                            className="py-3 px-5 inline-block text-center mb-3 rounded-md leading-normal text-gray-100 bg-red-700 border border-red-700 hover:text-white hover:bg-red-800 hover:ring-0 hover:border-red-800 focus:bg-red-800 focus:border-red-800 focus:outline-none focus:ring-0"
                             type="submit"
                           >
                             <svg
