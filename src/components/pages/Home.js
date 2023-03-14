@@ -25,7 +25,7 @@ export default function Home() {
                 <hr className="block w-12 h-0.5 mx-auto my-5 bg-red-500 border-red-500"></hr>
               </div>
               <p className="text-gray-100 leading-relaxed font-light text-xl mx-auto pb-2 mt-4">
-                Hi! My Name is David. I'm a new coder living in North Carolina.
+                Hi! My Name is David McWhirter. I'm a new coder living in North Carolina.
                 Recently coming from management in food service, I am excited to
                 say that I have taken the dive into the tech world! I've learned
                 how to use a variety of different technologies such as React,

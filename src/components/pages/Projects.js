@@ -158,7 +158,7 @@ export default function Projects() {
             <div class="flex px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6">
               <div className="flex flex-col bg-white mb-12 rounded overflow-hidden shadow">
                 <div className="relative overflow-hidden">
-                  <a href="https://sithryl.github.io/Password-Generator/">
+                  <a href="https://polar-springs-69420.herokuapp.com/">
                     <div className="absolute inset-0 hover:bg-black opacity-0 transition duration-700 hover:opacity-20"></div>
                     <img
                       className="max-w-full h-auto"
@@ -171,7 +171,7 @@ export default function Projects() {
                   <div className="mb-2">
                     <h3 className="text-xl leading-normal mb-4 font-bold text-gray-800">
                       <a
-                        href="https://sithryl.github.io/Password-Generator/"
+                        href="https://polar-springs-69420.herokuapp.com/"
                         className="hover:text-blue-700 dark:hover:text-gray-100"
                       >
                         Pet Check Plus
@@ -191,7 +191,7 @@ export default function Projects() {
             <div class="flex px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6">
               <div className="flex flex-col bg-white mb-12 rounded overflow-hidden shadow">
                 <div className="relative overflow-hidden">
-                  <a href="https://sithryl.github.io/Password-Generator/">
+                  <a href="https://gist.github.com/Sithryl/7cdbe5114b844ddbac1ac721f8829298">
                     <div className="absolute inset-0 hover:bg-black opacity-0 transition duration-700 hover:opacity-20"></div>
                     <img
                       className="max-w-full h-auto"
