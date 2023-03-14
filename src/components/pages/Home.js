@@ -146,7 +146,7 @@ export default function Home() {
                     alt="icon"
                   ></img>
                   <h3 className="text-xl leading-normal font-semibold mb-0">
-                    Sequalize
+                    Sequelize
                   </h3>
                 </div>
               </div>

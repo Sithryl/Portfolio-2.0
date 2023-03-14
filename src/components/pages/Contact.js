@@ -1,5 +1,6 @@
 import React from "react";
 import Resume from "../../../src/assets/2021_David_M_McWhirter.pdf";
+
 export default function Contact() {
   return (
     <div>
