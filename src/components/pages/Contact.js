@@ -1,5 +1,5 @@
 import React from "react";
-
+import Resume from "../../../src/assets/2021_David_M_McWhirter.pdf";
 export default function Contact() {
   return (
     <div>
@@ -7,7 +7,7 @@ export default function Contact() {
         {/* resume */}
         <figure className="flex flex-wrap flex-row -mx-4 justify-center">
           <a
-            href="../../../src/assets/2021_David_M_McWhirter.pdf"
+            href={Resume}
             download="Resume"
           >
             <button
