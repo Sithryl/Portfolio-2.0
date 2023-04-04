@@ -1,6 +1,7 @@
 {
   "files": {
-    "main.js": "/Portfolio-2.0/static/js/main.669b8404.js",
+    "main.js": "/Portfolio-2.0/static/js/main.423e8e8c.js",
+    "static/media/swapshop.png": "/Portfolio-2.0/static/media/swapshop.2c83c6e0e768620586fa.png",
     "static/media/petcheck-page.png": "/Portfolio-2.0/static/media/petcheck-page.6fa41e74ecd2f88631ea.png",
     "static/media/2021_David_M_McWhirter.pdf": "/Portfolio-2.0/static/media/2021_David_M_McWhirter.80af554c162dbf24c2c1.pdf",
     "static/media/regex.png": "/Portfolio-2.0/static/media/regex.252d974ff9129653a38a.png",
@@ -10,9 +11,9 @@
     "static/media/JATE.png": "/Portfolio-2.0/static/media/JATE.9a037ae1d03a108a3d7e.png",
     "static/media/readme-generator.png": "/Portfolio-2.0/static/media/readme-generator.0fdf1b0d78cf7be84c7f.png",
     "index.html": "/Portfolio-2.0/index.html",
-    "main.669b8404.js.map": "/Portfolio-2.0/static/js/main.669b8404.js.map"
+    "main.423e8e8c.js.map": "/Portfolio-2.0/static/js/main.423e8e8c.js.map"
   },
   "entrypoints": [
-    "static/js/main.669b8404.js"
+    "static/js/main.423e8e8c.js"
   ]
 }
