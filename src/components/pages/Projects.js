@@ -224,7 +224,7 @@ export default function Projects() {
             <div class="flex px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6">
               <div className="flex flex-col bg-white mb-12 rounded overflow-hidden shadow">
                 <div className="relative overflow-hidden">
-                  <a href="https://sithryl-jate.herokuapp.com/">
+                  <a href="https://swopshop.herokuapp.com">
                     <div className="absolute inset-0 hover:bg-black opacity-0 transition duration-700 hover:opacity-20"></div>
                     <img
                       className="max-w-full h-auto"
