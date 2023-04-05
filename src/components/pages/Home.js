@@ -3,21 +3,20 @@ import me from "../../../src/assets/images/me.jpg";
 export default function Home() {
   return (
     <div>
-      <div id="overview" className="relative pt-20 pb-8 md:pt-24 md:pb-12">
-        <div className="container xl:max-w-6xl mx-auto px-4">
+      <div
+        id="overview"
+        className="relative pt-20 pb-8 md:pt-24 md:pb-12 "
+      >
+        <div className="container xl:max-w-6xl mx-auto px-4 ">
           <div className="flex flex-wrap flex-row -mx-4 mb-12 md:mb-16">
-            <div
-              className="flex-shrink w-full max-w-full md:w-1/2 md:order-2 px-12 lg:px-16 text-center"
-            >
+            <div className="flex-shrink w-full max-w-full md:w-1/2 md:order-2 px-12 lg:px-16 text-center">
               <img
                 src={me}
                 className="mx-auto max-w-full h-auto"
                 alt="me"
               ></img>
             </div>
-            <div
-              className="flex-shrink w-full max-w-full md:w-1/2 md:order-1 px-4 self-center"
-            >
+            <div className="flex-shrink w-full max-w-full md:w-1/2 md:order-1 px-4 self-center">
               <div className="mt-0 pt-6 text-center">
                 <h1 className="text-2xl md:text-3xl leading-normal mb-2 font-semibold text-white">
                   About Me
@@ -25,13 +24,13 @@ export default function Home() {
                 <hr className="block w-12 h-0.5 mx-auto my-5 bg-red-500 border-red-500"></hr>
               </div>
               <p className="text-gray-100 leading-relaxed font-light text-xl mx-auto pb-2 mt-4">
-                Hi! My Name is David McWhirter. I'm a new coder living in North Carolina.
-                Recently coming from management in food service, I am excited to
-                say that I have taken the dive into the tech world! I've learned
-                how to use a variety of different technologies such as React,
-                which was used to make this site! Along with React I know how to
-                implement other MERN technologies. Check out some of my other
-                projects!
+                Hi! My Name is David McWhirter. I'm a new coder living in North
+                Carolina. Recently coming from management in food service, I am
+                excited to say that I have taken the dive into the tech world!
+                I've learned how to use a variety of different technologies such
+                as React, which was used to make this site! Along with React I
+                know how to implement other MERN technologies. Check out some of
+                my other projects!
               </p>
             </div>
           </div>

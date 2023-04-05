@@ -5,6 +5,7 @@ import README from "../../../src/assets/images/readme-generator.png";
 import Password from "../../../src/assets/images/webscreenshot.png";
 import PetCheck from "../../../src/assets/images/petcheck-page.png";
 import Regex from "../../../src/assets/images/regex.png";
+import SwapShop from "../../../src/assets/images/swapshop.png";
 export default function Projects() {
 
 
@@ -213,6 +214,45 @@ export default function Projects() {
                     <div className="text-gray-600">
                       <p className="text-gray-500">
                         Learn how to read REGEX syntax
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* item */}
+            <div class="flex px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6">
+              <div className="flex flex-col bg-white mb-12 rounded overflow-hidden shadow">
+                <div className="relative overflow-hidden">
+                  <a href="https://sithryl-jate.herokuapp.com/">
+                    <div className="absolute inset-0 hover:bg-black opacity-0 transition duration-700 hover:opacity-20"></div>
+                    <img
+                      className="max-w-full h-auto"
+                      src={SwapShop}
+                      alt="SwapShop"
+                    ></img>
+                  </a>
+                </div>
+                <div className="py-6 px-8 flex-1">
+                  <div className="mb-2">
+                    <h3 className="text-xl leading-normal mb-4 font-bold text-gray-800">
+                      <a
+                        href="https://swopshop.herokuapp.com"
+                        className="hover:text-blue-700 dark:hover:text-gray-100"
+                      >
+                        SwapShop
+                      </a>
+                    </h3>
+                    <div className="text-gray-600">
+                      <p className="text-gray-500">
+                        SwapShop is a revolutionary app that lets you trade
+                        items you no longer need for things you want! Say
+                        goodbye to the hassle of selling or throwing away
+                        unwanted items. With Swap Shop, you can find people who
+                        are interested in your items and trade them for
+                        something that you actually need. Our app is easy to use
+                        and helps you save money while reducing waste. Join the
+                        SwapShop community today and start swappin!
                       </p>
                     </div>
                   </div>
