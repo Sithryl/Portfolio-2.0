@@ -3,10 +3,7 @@ import me from "../../../src/assets/images/me.jpg";
 export default function Home() {
   return (
     <div>
-      <div
-        id="overview"
-        className="relative pt-20 pb-8 md:pt-24 md:pb-12 "
-      >
+      <div id="overview" className="relative pt-20 pb-8 md:pt-24 md:pb-12 ">
         <div className="container xl:max-w-6xl mx-auto px-4 ">
           <div className="flex flex-wrap flex-row -mx-4 mb-12 md:mb-16">
             <div className="flex-shrink w-full max-w-full md:w-1/2 md:order-2 px-12 lg:px-16 text-center">
@@ -176,6 +173,21 @@ export default function Home() {
                   ></img>
                   <h3 className="text-xl leading-normal font-semibold mb-0">
                     React
+                  </h3>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex-shrink max-w-full px-4 lg:w-1/2">
+              <div className="p-6 bg-white mx-4 mb-12 rounded shadow">
+                <div className="flex rounded items-center ltr:pl-4 ltr:pr-1 md:ltr:pl-1 md:ltr:pr-1 rtl:pr-4 rtl:pl-1 md:rtl:pr-1 md:rtl:pl-1 py-2 bg-white">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+                    className="w-10 h-10 mr-4 rtl:ml-4 inline-block"
+                    alt="icon"
+                  ></img>
+                  <h3 className="text-xl leading-normal font-semibold mb-0">
+                    Next.js
                   </h3>
                 </div>
               </div>
