@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import Reciplease from "../../../src/assets/images/Reciplease-page.png";
 import JATE from "../../../src/assets/images/JATE.png";
 import README from "../../../src/assets/images/readme-generator.png";
@@ -7,8 +7,6 @@ import PetCheck from "../../../src/assets/images/petcheck-page.png";
 import Regex from "../../../src/assets/images/regex.png";
 import Calculator from "../../../src/assets/images/sc-site.png";
 export default function Projects() {
-
-
   return (
     <div>
       <div id="project section" className="relative py-20 md:py-24 bg-gray-800">
@@ -250,7 +248,8 @@ export default function Projects() {
                         based on their monthly contributions and the desired
                         number of years. The calculator takes into account the
                         compounded interest to provide an accurate estimate of
-                        the final amount. This is a project I made for the Savings Captain.
+                        the final amount. This is a project I made for the
+                        Savings Captain.
                       </p>
                     </div>
                   </div>
