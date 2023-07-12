@@ -229,7 +229,7 @@ export default function Projects() {
                     <img
                       className="max-w-full h-auto"
                       src={Calculator}
-                      alt="SwapShop"
+                      alt="Savings Calculator"
                     ></img>
                   </a>
                 </div>
