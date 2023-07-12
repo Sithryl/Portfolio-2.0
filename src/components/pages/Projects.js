@@ -238,7 +238,7 @@ export default function Projects() {
                         href="https://savings-calculator-xi.vercel.app/"
                         className="hover:text-blue-700 dark:hover:text-gray-100"
                       >
-                        SwapShop
+                        Savings Calculator
                       </a>
                     </h3>
                     <div className="text-gray-600">
